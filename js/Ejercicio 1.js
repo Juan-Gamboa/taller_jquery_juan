@@ -5,4 +5,4 @@ $(document).ready(()=>{
         var resnum = cantnum.split("");
         alert("La palabra" +" "+$("#palabraInput").val()+" "+ "tiene"+" "+resnum.length+" "+"caracteres");
     });
-})
+});
