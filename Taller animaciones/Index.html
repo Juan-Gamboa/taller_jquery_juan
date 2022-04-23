@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Animación</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="contentPage">
+      <div class="content contentTable">
+        <h1>Temas</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Lista de Temas</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tema 1</td>
+              <td>
+                <a class="verMas" href="#">Ver mas...</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Tema 2</td>
+              <td>
+                <a href="#">Ver mas...</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Tema 3</td>
+              <td>
+                <a href="#">Ver mas...</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Tema 4</td>
+              <td>
+                <a href="#">Ver mas...</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="content contentDetail">
+        <h2>Nombre de tema</h2>
+        <p>Explicacion del tema</p>
+        <a id="verSubtemas" href="#">Ver subtemas...</a>
+        <a id="volver" href="#">Volver</a>
+      </div>
+    </div>
+    <div class="contentPage">
+      <div class="content">
+        <h2>lista de subtitulos</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Sub titulos</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sub T. 1</td>
+              <td>
+                <a class="verMasSubTitulos" href="#">Ver más...</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modalAnimacion">
+        <div class="modalContent">
+          <h1>Modal</h1>
+          <button id="cerrarModal">cerrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="puntero"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
